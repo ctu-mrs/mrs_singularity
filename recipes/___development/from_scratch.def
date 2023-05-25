@@ -29,6 +29,7 @@ From: ros:noetic
     cd $MRS_LOCATION/git
     git clone https://github.com/ctu-mrs/mrs_uav_system
     cd mrs_uav_system
+    git checkout t_drone_m_690
     ./install.sh -g $MRS_LOCATION/git -l $MRS_LOCATION --no-build --my-workspace=false
     rm -rf /var/lib/apt/lists/*
     cd $MRS_LOCATION/mrs_workspace/
